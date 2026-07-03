@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131-Dynamic Web Fundamentals-De-valdy Belfort</title>
+    <meta name="description" content="WDD 131  Dynamic Web Fundamentals, learning HTML, CSS, JavaScript">
+    <meta name="author" content="De-valdy Belfort">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Merriweather&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Style/base.css">
+
+    <!-- JavaScript -->
+    <script src="Scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 131</h1>
+
+    <header>
+        <span id="course-title">WDD 131 Dynamic Web Fundamentals</span>
+
+        <nav>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>De-valdy Belfort</h1>
+
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="Images/profile.jpg" alt="Profile picture">
+            <p>
+                Hello! My name is De-valdy Belfort. I am learning web development.
+                I enjoy building websites and learning how HTML, CSS, and JavaScript work together.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>My Country</h2>
+            <img src="Images/haitiimage.jpg" alt="Haiti image">
+            <p>
+                Haiti is my country. It is known for its rich history, beautiful culture,
+                and strong people. I am proud to be from Haiti.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> De-valdy Belfort, Haiti
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
+
 </html>
