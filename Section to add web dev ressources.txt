@@ -1,0 +1,15 @@
+Section to add web dev ressources
+
+<section class="card">
+
+        <h2>Web Dev Resources</h2>
+
+        <ul>
+            <li><a href="#">Resource 1</a></li>
+            <li><a href="#">Resource 2</a></li>
+            <li><a href="#">Resource 3</a></li>
+            <li><a href="#">Resource 4</a></li>
+            <li><a href="#">Resource 5</a></li>
+        </ul>
+
+    </section>
