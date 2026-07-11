@@ -1,0 +1,113 @@
+/* Google font */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+header {
+    background-color: #1b4965;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+/* Website title */
+header h1 {
+    margin: 0;
+}
+
+
+/* Hamburger button */
+#menuButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* Navigation menu */
+nav {
+    display: none;
+    flex-direction: column;
+}
+
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem;
+}
+
+
+/* Hover effect */
+nav a:hover {
+    background-color: #62b6cb;
+    color: black;
+}
+
+
+/* Class added by JavaScript */
+.show {
+    display: flex;
+}
+
+
+/* MAIN CONTENT */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+/* Main heading */
+main h2 {
+    text-align: center;
+}
+
+
+/* Gallery container */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+
+/* Individual picture boxes */
+figure {
+    margin: 0;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+/* Images */
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Picture captions */
+figcaption {
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #1b4965;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

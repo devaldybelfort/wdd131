@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Tells the browser which characters to use -->
+    <meta charset="UTF-8">
+
+    <!-- Makes the page responsive on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title shown on the browser tab -->
+    <title>Temple Album</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Mobile small screen CSS (always first) -->
+    <link rel="stylesheet" href="styles/temple.css">
+
+    <!-- Large screen CSS (always second) -->
+    <link rel="stylesheet" href="styles/temples-large.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/temple.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Temple Album</h1>
+
+        <!-- Hamburger Button -->
+        <button id="menuButton">☰</button>
+
+        <nav id="navigation">
+
+            <a href="#">Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h2>Temple Gallery</h2>
+
+        <div class="gallery">
+
+            <figure>
+                <img src="images/pauptemple.jpg" alt="Port-au-Prince Temple">
+                <figcaption>Port-au-Prince Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/saltlakecitytemple2.jpg" alt="Salt Lake City Temple">
+                <figcaption>Salt Lake City Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/romeitalytemple.jpg" alt="Rome Italy Temple">
+                <figcaption>Rome Italy Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/tokyojapantemple.jpg" alt="Tokyo Japan Temple">
+                <figcaption>Tokyo Japan Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/nauvootemple.jpg" alt="Nauvoo Temple">
+                <figcaption>Nauvoo Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/laiehawaitemple.jpg" alt="Laie Hawaii Temple">
+                <figcaption>Laie Hawaii Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/dominicanreptemple.jpg" alt="Dominican Republic Temple">
+                <figcaption>Dominican Republic Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/brasiliabrasiltemple.jpg" alt="Brasilia Brazil Temple">
+                <figcaption>Brasilia Brazil Temple</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/mexicocitytemple.jpg" alt="Mexico City Temple">
+                <figcaption>Mexico City Temple</figcaption>
+            </figure>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy;
+            <span id="currentyear"></span>
+            De-valdy Belfort | Haiti
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>

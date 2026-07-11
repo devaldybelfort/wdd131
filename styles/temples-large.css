@@ -1,0 +1,32 @@
+/* Large screen styles */
+
+@media screen and (min-width: 768px) {
+
+
+    /* Hide hamburger button */
+    #menuButton {
+        display: none;
+    }
+
+
+    /* Show navigation */
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    /* Navigation spacing */
+    nav a {
+        padding: 1rem;
+    }
+
+
+    /* Create multiple columns */
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+}
