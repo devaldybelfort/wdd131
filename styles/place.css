@@ -105,11 +105,10 @@ picture img {
 
 .icon {
 
-    display: block;
+    width: 40px;
+    height: 40px;
+    margin-left: .5rem;
 
-    font-size: 2rem;
-
-    margin-top: .4rem;
 
 }
 
