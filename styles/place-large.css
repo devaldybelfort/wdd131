@@ -1,0 +1,115 @@
+/* ============================================
+   WDD 131 - Place Assignment
+   Desktop Layout
+============================================= */
+
+@media screen and (min-width: 768px) {
+
+    /* Main becomes the container */
+
+    main {
+
+        position: relative;
+
+        max-width: 1200px;
+
+        margin: 0 auto;
+
+    }
+
+    /* Hero image */
+
+    picture img {
+
+        width: 100%;
+
+        height: auto;
+
+        display: block;
+
+    }
+
+    /* Data Card */
+
+    .data {
+
+        position: absolute;
+
+        top: 40px;
+
+        left: 30px;
+
+        width: 300px;
+
+        background: rgba(255, 255, 255, .88);
+
+        backdrop-filter: blur(3px);
+
+        border-radius: 10px;
+
+        box-shadow: 0 6px 18px rgba(0, 0, 0, .30);
+
+        margin: 0;
+
+    }
+
+    /* Weather Card */
+
+    .weather {
+
+        position: absolute;
+
+        bottom: 40px;
+
+        right: 30px;
+
+        width: 280px;
+
+        background: rgba(255, 255, 255, .88);
+
+        backdrop-filter: blur(3px);
+
+        border-radius: 10px;
+
+        box-shadow: 0 6px 18px rgba(0, 0, 0, .30);
+
+        margin: 0;
+
+    }
+
+    /* Green title bars like the example */
+
+    .data h2,
+    .weather h2 {
+
+        background: #1d7d46;
+
+        color: white;
+
+        padding: .75rem;
+
+        margin: -1.2rem -1.2rem 1rem -1.2rem;
+
+        border-radius: 10px 10px 0 0;
+
+    }
+
+    /* Weather emoji larger */
+
+    .icon {
+
+        font-size: 1.8rem;
+
+        margin-left: .5rem;
+
+    }
+
+    /* Footer */
+
+    footer {
+
+        margin-top: 0;
+
+    }
+
+}

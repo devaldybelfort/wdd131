@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Place of Haiti</title>
+
+    <meta name="description" content="Discover Haiti including its geography, culture, weather, and important facts.">
+
+    <meta name="author" content="De-valdy Belfort">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- JavaScript -->
+
+    <script src="scripts/place.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Haiti</h1>
+    </header>
+
+
+    <main>
+
+        <!-- HERO IMAGE -->
+
+        <picture>
+            <source media="(min-width: 768px)" srcset="images/citadelle.jpg">
+
+            <img src="images/citadelle.jpg" alt="Beautiful Citadelle Laferriere of Haiti">
+        </picture>
+
+
+
+        <!-- DATA CARD -->
+
+        <section class="data">
+
+            <h2>Data</h2>
+
+            <ul>
+
+                <li><strong>Area:</strong> 27,750 km²</li>
+
+                <li><strong>Population:</strong> 11,724,763</li>
+
+                <li><strong>Capital:</strong> Port-au-Prince</li>
+
+                <li><strong>Languages:</strong> Haitian Creole, French</li>
+
+                <li><strong>Currency:</strong> Haitian Gourde (HTG)</li>
+
+                <li><strong>Time Zone:</strong> UTC -5</li>
+
+                <li><strong>Calling Code:</strong> +509</li>
+
+                <li><strong>Internet TLD:</strong> .ht</li>
+
+            </ul>
+
+        </section>
+
+
+
+        <!-- WEATHER CARD -->
+
+        <section class="weather">
+
+            <h2>
+
+                Weather
+
+                <span class="icon">⛅</span>
+
+            </h2>
+
+            <ul>
+
+                <li><strong>Temperature:</strong>
+                    <span id="temperature">30</span> °C
+                </li>
+
+                <li><strong>Conditions:</strong>
+                    Sunny</li>
+
+                <li><strong>Wind:</strong>
+                    <span id="windSpeed">8</span> km/h
+                </li>
+
+                <li><strong>Wind Chill:</strong>
+
+                    <span id="windChill"></span>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+        <p>
+
+            ©
+
+            <span id="currentyear"></span>
+
+            De-valdy Belfort |
+
+            Haiti
+
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>

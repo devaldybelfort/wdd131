@@ -1,0 +1,144 @@
+/* ------------------------------ */
+/* WDD 131 - Place Assignment     */
+/* Mobile First CSS               */
+/* ------------------------------ */
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #eef8ea;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background: #003893;
+    /* Haiti Blue */
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    border-bottom: 10px solid #d21034;
+    /* Haiti Red */
+}
+
+header h1 {
+    font-size: 2.2rem;
+}
+
+/* Main */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Hero Image */
+
+picture,
+picture img {
+    display: block;
+    width: 100%;
+}
+
+picture img {
+    height: auto;
+}
+
+/* Data Card */
+
+.data,
+.weather {
+
+    background: white;
+
+    margin: 1rem;
+
+    padding: 1.2rem;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+
+}
+
+/* Card Titles */
+
+.data h2,
+.weather h2 {
+
+    text-align: center;
+
+    margin-bottom: 1rem;
+
+    color: #003893;
+
+}
+
+/* Lists */
+
+.data ul,
+.weather ul {
+
+    list-style: none;
+
+}
+
+.data li,
+.weather li {
+
+    margin: .7rem 0;
+
+}
+
+/* Weather Icon */
+
+.icon {
+
+    display: block;
+
+    font-size: 2rem;
+
+    margin-top: .4rem;
+
+}
+
+/* Footer */
+
+footer {
+
+    background: #003893;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1.5rem;
+
+    margin-top: 1rem;
+
+}
+
+footer p {
+
+    margin: .4rem;
+
+}
+
+/* Images Responsive */
+
+img {
+
+    max-width: 100%;
+
+}
