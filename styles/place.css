@@ -3,6 +3,20 @@
 /* Mobile First CSS               */
 /* ------------------------------ */
 
+:root {
+    /* Colors */
+    --primary-color: #003893;
+    
+    --secondary-color: #d21034;
+    
+    --background-color: #eef8ea;
+    --card-background: #ffffff;
+    --text-color: #222;
+    --heading-color: #003893;
+    --footer-text-color: #ffffff;
+
+
+
 /* Reset */
 
 * {
