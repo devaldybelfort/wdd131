@@ -79,8 +79,7 @@
 
     /* Green title bars like the example */
 
-    .data h2,
-    .weather h2 {
+    .data h2, {
 
         background: #1d7d46;
 
@@ -93,6 +92,26 @@
         border-radius: 10px 10px 0 0;
 
     }
+
+    .weather h2 {
+    
+        background: #1d7d46;
+    
+        color: white;
+    
+        padding: .75rem;
+    
+        margin: -1.2rem -1.2rem 1rem -1.2rem;
+    
+        border-radius: 10px 10px 0 0;
+    
+        }
+        
+    .weather h2::after {
+        content: " ⛅";
+        margin-left: 0.5rem;
+        font-size: 1.3rem;
+        }
 
     /* Weather emoji larger */
 
