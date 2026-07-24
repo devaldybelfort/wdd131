@@ -1,0 +1,163 @@
+/* ==========================================
+   GOOGLE FONT & RESET
+========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    line-height: 1.5;
+}
+
+
+/* ==========================================
+   HEADER
+========================================== */
+
+header {
+    background-color: #1b4965;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin-bottom: .75rem;
+}
+
+
+/* ==========================================
+   HAMBURGER BUTTON
+========================================== */
+
+#menuButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* ==========================================
+   NAVIGATION
+========================================== */
+
+nav {
+    display: none;
+    flex-direction: column;
+}
+
+nav.show {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: .85rem;
+    transition: .3s;
+}
+
+nav a:hover {
+    background-color: #62b6cb;
+    color: black;
+}
+
+
+/* ==========================================
+   MAIN
+========================================== */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+
+/* ==========================================
+   GALLERY
+========================================== */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+
+/* ==========================================
+   TEMPLE CARD
+========================================== */
+
+figure {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+
+    text-align: center;
+}
+
+
+/* Temple Image */
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Caption */
+
+figcaption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: .75rem;
+}
+
+
+/* Temple Information */
+
+figure p {
+    padding: .35rem 1rem;
+}
+
+figure p:last-child {
+    padding-bottom: 1rem;
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer {
+    margin-top: 2rem;
+
+    background-color: #1b4965;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1rem;
+}
+
+footer p {
+    margin: .3rem 0;
+}
