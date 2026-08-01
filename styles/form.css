@@ -18,7 +18,7 @@ body {
 /* ---------- Header ---------- */
 
 header {
-    background: #003366;
+    background: #bcbe13;
     color: white;
     padding: 1.5rem;
     text-align: center;
@@ -37,12 +37,14 @@ main {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+    
 }
 
 /* ---------- Form ---------- */
 
 .form-group {
     margin-bottom: 1.5rem;
+    accent-color: #bcbe13;
 }
 
 label,
@@ -50,6 +52,7 @@ label,
     display: block;
     font-weight: 600;
     margin-bottom: .5rem;
+    accent-color: #bcbe13;
 }
 
 select,
@@ -78,13 +81,16 @@ textarea {
 
 .rating input[type="radio"] {
     margin-right: .5rem;
+    accent-color: #bcbe13;
 }
 
 .rating label {
     display: inline;
     font-size: 1.2rem;
     cursor: pointer;
+    accent-color: #bcbe13;
 }
+
 
 /* ---------- Checkboxes ---------- */
 
@@ -96,6 +102,7 @@ textarea {
 
 .checkbox-group input {
     margin-top: .5rem;
+    accent-color: #bcbe13;
 }
 
 /* ---------- Submit Button ---------- */
@@ -105,7 +112,7 @@ textarea {
     padding: .9rem;
     border: none;
     border-radius: 6px;
-    background: #003366;
+    background: #bcbe13;
     color: white;
     font-size: 1rem;
     cursor: pointer;
@@ -113,7 +120,7 @@ textarea {
 }
 
 .submit-btn:hover {
-    background: #0055aa;
+    background: #e8ec02;
 }
 
 /* ---------- Confirmation Page ---------- */
@@ -132,7 +139,7 @@ textarea {
 
 #reviewCount {
     font-size: 2rem;
-    color: #003366;
+    color: #bcbe13;
     font-weight: bold;
 }
 
@@ -140,7 +147,7 @@ textarea {
     display: inline-block;
     margin-top: 1rem;
     padding: .8rem 1.5rem;
-    background: #003366;
+    background: #bcbe13;
     color: white;
     text-decoration: none;
     border-radius: 6px;
@@ -148,7 +155,7 @@ textarea {
 }
 
 .back-button:hover {
-    background: #0055aa;
+    background: #e8ec02;
 }
 
 /* ---------- Footer ---------- */
@@ -156,7 +163,7 @@ textarea {
 footer {
     margin-top: 2rem;
     padding: 1rem;
-    background: #003366;
+    background: #bcbe13;
     color: white;
     text-align: center;
 }
